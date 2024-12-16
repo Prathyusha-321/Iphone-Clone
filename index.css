@@ -1,0 +1,487 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 44px;
+    width: 100%;
+    background-color: #181818;
+    align-items: center;
+    z-index: 5;
+}
+.sec{
+    height: 50px;
+    text-align: center;
+   background-color: #575555;
+   color: white;
+    justify-content:center;
+    align-items: center;
+    padding-top: 10px;
+    top:0;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 44px;
+    width: 100%;
+    font-size: 12px;
+    font-family: "SF Pro Text", "SF Pro Icons", Arial, Helvetica, sans-serif;
+    letter-spacing: -0.374px;
+    line-height: 25px;
+    padding: 0 140px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #D0D0D0;
+}
+
+nav a:hover {
+    color: #007AFF;
+}
+
+
+.section1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.section1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, #00A1FF, #6B47F8, #DC4ADE, #FF3B30, #FF9500);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.section1 .content1 {
+    color: white;
+    padding-top: 2px;
+    line-height: 30px;
+    font-family: "SF Pro Text", "SF Pro Icons", Arial, Helvetica, sans-serif;
+}
+
+.section1 h1 {
+    font-size: 50px;
+}
+
+.section1 p {
+    font-size: 27px;
+}
+
+.section1 button {
+    margin: 0 15px;
+    padding: 7px 20px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+
+.section2 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #F5F5F7;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section2 img {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    width: 25%;
+    height: 23%;
+}
+
+.section2 .hello1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 103vh;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, #00A1FF, #6B47F8, #DC4ADE, #FF3B30, #FF9500);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.section2 .content2 {
+    color: black;
+    padding-top: 50px;
+    line-height: 30px;
+    font-family: "SF Pro Text", "SF Pro Icons", Arial, Helvetica, sans-serif;
+}
+
+.content2 button {
+    margin: 0 15px;
+    padding: 7px 22px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.section2 h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.section2 p {
+    font-size: 27px;
+}
+
+
+.section3 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #F5F5F7;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section3 img {
+    position: absolute;
+    top: 37%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.section3 .hello2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, #00A1FF, #6B47F8, #DC4ADE, #FF3B30, #FF9500);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.section3 .content3 {
+    color: black;
+    padding-top: 50px;
+    line-height: 30px;
+    font-family: "SF Pro Text", "SF Pro Icons", Arial, Helvetica, sans-serif;
+}
+
+.content3 button {
+    margin: 0 15px;
+    padding: 7px 22px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.section3 h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.section3 p {
+    font-size: 27px;
+}
+
+
+.section4 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1764px;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+}
+
+.section4 div {
+    position: relative;
+    height: 580px;
+    width: 613.667px;
+    overflow: hidden;
+}
+
+.section4 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 580px;
+    width: 620px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.section4 .content4 {
+    position: absolute;
+    top: 70%;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+}
+
+.section4 .content4 button {
+    margin: 0 15px;
+    padding: 7px 22px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.section4 .content4 h1 {
+    font-size: 40px;
+}
+
+.section4 .content4 p {
+    font-size: 20px;
+}
+
+.section4 .content5 {
+    position: absolute;
+    top: 30px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", Arial, Helvetica, sans-serif;
+}
+
+.section4 .content5 button {
+    margin: 0 15px;
+    padding: 7px 22px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.section4 .content {
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    color: black;
+    line-height: 20px;
+}
+
+.content button {
+    margin: 0 15px;
+    padding: 7px 22px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.section4 h1 {
+    font-size: 40px;
+}
+
+.section4 p {
+    font-size: 20px;
+}
+
+
+.hamburger-menu {
+    display: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #D0D0D0;
+    padding: 1px 8px;
+   
+}
+
+/* Media Queries */
+/* Tablet */
+@media (max-width: 768px) {
+    .list {
+        padding: 0 50px;
+    }
+
+    .section1 h1 {
+        font-size: 36px;
+    }
+
+    .section1 p {
+        font-size: 20px;
+    }
+
+    .section1 button {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .list.active {
+        display: flex;
+    }
+
+    .list li {
+        padding: 10px 0;
+    }
+
+    .section1 h1 {
+        font-size: 28px;
+    }
+
+    .section1 p {
+        font-size: 18px;
+    }
+
+    .section1 button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    
+    .list {
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+        align-items: flex-start; 
+        line-height: 10px
+    }
+
+    .list a {
+        padding: 10px 0; 
+        font-size: 16px;  
+        width: 100%; 
+        text-align: left; 
+       
+    }
+
+    .section1 h1 {
+        font-size: 28px;
+    }
+
+    .section1 p {
+        font-size: 18px;
+    }
+
+    .section1 button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .section2 h1 {
+        font-size: 28px;
+    }
+
+    .section2 p {
+        font-size: 18px;
+    }
+
+    .section2 button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .section3 h1 {
+        font-size: 28px;
+    }
+
+    .section3 p {
+        font-size: 18px;
+    }
+
+    .section3 button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .section4 div {
+        height: 400px;
+        width: 100%;
+    }
+
+    .section4 img {
+        height: 400px;
+        width: 100%;
+    }
+    .section4 .content {
+        line-height: 15px;
+    }
+
+    .section4 .content4 h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .section4 .content4 p {
+        font-size: 13px;
+    }
+    .section4 .content4 button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    .section4 .content5 h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .section4 .content5 p {
+        font-size: 13px;
+    }
+    .section4 .content5 button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    .section4 .content h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .section4 .content h5 {
+        font-size: 13px;
+    }
+    .section4 .content p {
+        font-size: 13px;
+    }
+    .section4 .content button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+}
+
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .hamburger-menu + .list {
+    display: flex;
+    height: 474px;
+    background-color: #161617;
+
+}
